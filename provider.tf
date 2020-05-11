@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "ec2-server" {
   instance_type = "t2.micro"
-  ami = "ami-0c322300a1dd5dc79"
+  ami = "ami-098f16afa9edf40be"
   tags = {
   Name = "first-public-instance"
   }
